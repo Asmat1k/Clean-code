@@ -71,8 +71,7 @@ button{
 }
 
 /* Heading */
-.main__title,
-.add-block__label[for="add-block_task"] {
+.main__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -98,7 +97,7 @@ button{
 }
 
 /* New Task */
-.add-block__label[for="add-block_task"] {
+#add-block .main__title {
   display: block;
   margin: 0 0 20px;
 }
