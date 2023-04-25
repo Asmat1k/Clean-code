@@ -11,7 +11,8 @@ input,
 button{
   outline: none;
 }
-button {
+
+.main__button {
   background: none;
   border: 0px;
   color: #888;
@@ -20,7 +21,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.main__button:hover {
   color: #3a3A3a;
 }
 
@@ -70,8 +71,7 @@ button:hover {
 }
 
 /* Heading */
-.main__title,
-.add-block__label[for="add-block_task"] {
+.main__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -97,7 +97,7 @@ button:hover {
 }
 
 /* New Task */
-.add-block__label[for="add-block_task"] {
+#add-block .main__title {
   display: block;
   margin: 0 0 20px;
 }
