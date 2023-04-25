@@ -11,7 +11,8 @@ input,
 button{
   outline: none;
 }
-button {
+
+.main__button {
   background: none;
   border: 0px;
   color: #888;
@@ -20,7 +21,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.main__button:hover {
   color: #3a3A3a;
 }
 
