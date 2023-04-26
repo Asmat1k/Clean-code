@@ -80,7 +80,7 @@ button{
   margin: 0;
   text-transform: uppercase;
 }
-.main__input[type="text"] {
+.main__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -92,7 +92,7 @@ button{
   font-family: Lato, sans-serif;
   color: #888;
 }
-.main__input[type="text"]:focus {
+.main__input:focus {
   color: #333;
 }
 
@@ -118,7 +118,7 @@ button{
   vertical-align: middle;
 }
 
-.main__item > .main__input-checkbox[type="checkbox"] {
+.main__item > .main__input-checkbox {
   margin: 0 10px;
 }
 .main__item > .main__label {
@@ -127,7 +127,7 @@ button{
   font-size: 18px;
   width: 226px;
 }
-.main__item > .main__input[type="text"] {
+.main__item > .main__input {
   width: 226px;
 }
 .delete__button .delete__img {
@@ -146,11 +146,11 @@ button{
 }
 
 /* Edit Task */
-.main__item > .main__input[type=text] {
+.main__item > .main__input {
   display: none;
 }
 
-.main__item.edit-block .main__input[type=text] {
+.main__item.edit-block .main__input {
   display: inline-block;
   width: 224px
 }
